@@ -28,7 +28,7 @@ b) If working locally type the following command from your command line: `$ git 
 
 This is an example of how your application should look:
 
-![Bubble Sorting Cards on a website](https://github.com/breatheco-de/exercise-sorting-cards-with-select/blob/master/preview.gif)
+![Bubble Sorting Cards on a website](https://raw.githubusercontent.com/breatheco-de/exercise-sorting-cards-with-select/master/preview.gif)
 
 ## 💡 Hint:
 
