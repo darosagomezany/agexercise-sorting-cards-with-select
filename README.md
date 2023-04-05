@@ -22,11 +22,11 @@ b) If working locally, type the following command from your command line: `$ git
 ## 📝Instructions
 
 1. Create a function that generates a list of random cards with suits.
-1. Let the user specify how many random cards the website should generate using a text input.
-2. Add a "draw" button that when clicked it renders those cards on the website in a beautiful way.
-3. Add one "sort" button that sorts the cards using the `selection` sorting algorithm.
-4. Save all the changes that you had to do while sorting the list of cards in a new array.
-5. Display the entire log of changes, one on top of the other.
+2. Let the user specify how many random cards the website should generate using a text input.
+3. Add a "draw" button that when clicked it renders those cards on the website in a beautiful way.
+4. Add one "sort" button that sorts the cards using the `selection` sorting algorithm.
+5. Save all the changes that you had to do while sorting the list of cards in a new array.
+6. Display the entire log of changes, one on top of the other.
 
 This is an example of how your application should look:
 
