@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sorting Cards with Select</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div id="pageContainer" class="container-fluid"> <!--Contenedor de todo-->
+
+        <div id="formContainer" class="flex-column"> <!--Contenedor de selección de cartas-->
+            <div>
+                <h3>Original:</h3>
+            </div>
+
+            <form class="row row-cols-lg-auto g-1 align-items-center">
+                <div class="col-1">
+                    <div class="input-group ps-2">
+                        <input id="input" type="text" class="form-control" placeholder="How many cards to sort?">
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <button id="drawButton" type="button" class="btn btn-light">Draw</button>
+                </div>
+
+                <div class="col-1">
+                    <button id="sortButton" type="button" class="btn btn-light">Sort</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div id="drawedCards"> <!--Display de cartas-->
+        </div>
+
+        <div id="sortContainer"> <!--Contenedor donde se mostrará el proceso de ordenamiento de las cartas-->
+            <h3> Selection sort</h3>
+            <div id="cardsSort">
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>

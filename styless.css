@@ -1,0 +1,39 @@
+#pageContainer{
+    background-color: green;
+    border: 3px solid black;
+
+}
+#drawedCards {
+    display: flex;
+    flex-direction: row;
+}
+
+#bckgrnd {
+    width: 100px;
+    height: 140px;
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    border-radius: 5%;
+    margin: 5px 10px;
+}
+
+#tpS, #mdS, #btS {
+    position: absolute;
+}
+
+#tpS {
+    top: 5px;
+    left: 5px;
+}
+
+#mdS {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btS {
+    bottom: 5px;
+    right: 5px;
+}
